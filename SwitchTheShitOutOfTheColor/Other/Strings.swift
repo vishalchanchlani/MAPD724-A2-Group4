@@ -2,8 +2,8 @@
 //  Strings.swift
 //  SwitchTheShitOutOfTheColor
 //
-//  Created by NP2 on 5/4/19.
-//  Copyright © 2019 shndrs. All rights reserved.
+//  Created by VISHAL (V.C) on 5/4/19.
+//  Copyright © 2019. All rights reserved.
 //
 
 import Foundation
@@ -17,6 +17,7 @@ public enum Strings:String {
 public enum Sounds:String {
     case gameover
     case ding
+    case winning
 }
 
 public enum SKShits:String {

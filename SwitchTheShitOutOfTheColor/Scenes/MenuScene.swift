@@ -2,8 +2,8 @@
 //  MenuScene.swift
 //  SwitchTheShitOutOfTheColor
 //
-//  Created by NP2 on 5/4/19.
-//  Copyright © 2019 shndrs. All rights reserved.
+//  Created by VISHAL (V.C) on 5/4/19.
+//  Copyright © 2019. All rights reserved.
 //
 
 import SpriteKit
@@ -17,29 +17,31 @@ final class MenuScene: SKScene {
     
     private func addLogoAndBackground() {
         
-        backgroundColor = UIColor(red: 44/255, green: 62/255, blue: 80/255, alpha: 1.0)
-        let backgroundImage = SKSpriteNode()
-        backgroundImage.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
-        backgroundImage.zPosition = 0
-        backgroundImage.texture = SKTexture(imageNamed: SKShits.bg4.rawValue)
-        backgroundImage.aspectFillToSize(fillSize: view!.frame.size)
-        
-        addChild(backgroundImage)
+//        backgroundColor = UIColor(red: 44/255, green: 62/255, blue: 80/255, alpha: 1.0)
+//        let backgroundImage = SKSpriteNode()
+//        backgroundImage.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
+//        backgroundImage.zPosition = 0
+//        backgroundImage.texture = SKTexture(imageNamed: SKShits.bg4.rawValue)
+//        backgroundImage.aspectFillToSize(fillSize: view!.frame.size)
+//
+//        addChild(backgroundImage)
     }
     
     private func addLabels() {
         
         let playLabel = SKLabelNode(text: SKShits.tapToPlay.rawValue)
         playLabel.fontName = FontName.copperplate.rawValue
-        playLabel.fontSize = 34.0
-        playLabel.fontColor = .white
+        playLabel.fontSize = 45.0
+        playLabel.fontColor = .red
         playLabel.position = CGPoint(x: frame.midX, y: frame.midY)
         addChild(playLabel)
         animate(label: playLabel)
         
+        
+        
         let highscoreLabel = SKLabelNode(text: SKShits.highscore.rawValue + "\(UserDefaultsManager.shared.value.integer(forKey: UserDefaultsKeys.highscore.rawValue))")
         highscoreLabel.fontName = FontName.copperplate.rawValue
-        highscoreLabel.fontSize = 27.0
+        highscoreLabel.fontSize = 30.0
         highscoreLabel.fontColor = .white
         highscoreLabel.position = CGPoint(x: frame.midX, y: frame.midY - highscoreLabel.frame.size.height*4)
         addChild(highscoreLabel)

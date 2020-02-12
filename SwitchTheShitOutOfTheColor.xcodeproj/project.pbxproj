@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3705F923DAAF9D00A011AF /* winning.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE3705F823DAAF9D00A011AF /* winning.wav */; };
 		F43E502C227D59F5009B8E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E502B227D59F5009B8E31 /* AppDelegate.swift */; };
 		F43E5032227D59F5009B8E31 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E5031227D59F5009B8E31 /* GameScene.swift */; };
 		F43E5034227D59F5009B8E31 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E5033227D59F5009B8E31 /* GameViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3705F823DAAF9D00A011AF /* winning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winning.wav; sourceTree = "<group>"; };
 		F43E5028227D59F5009B8E31 /* SwitchTheShitOutOfTheColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTheShitOutOfTheColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43E502B227D59F5009B8E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F43E5031227D59F5009B8E31 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		F43E5046227D62AF009B8E31 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				CE3705F823DAAF9D00A011AF /* winning.wav */,
 				F43E504B227D9E0B009B8E31 /* ding.wav */,
 				F43E504D227D9F07009B8E31 /* gameover.wav */,
 				F43E5035227D59F5009B8E31 /* Main.storyboard */,
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43E504E227D9F07009B8E31 /* gameover.wav in Resources */,
+				CE3705F923DAAF9D00A011AF /* winning.wav in Resources */,
 				F43E5037227D59F5009B8E31 /* Main.storyboard in Resources */,
 				F43E5039227D59F6009B8E31 /* Assets.xcassets in Resources */,
 				F43E504C227D9E0B009B8E31 /* ding.wav in Resources */,

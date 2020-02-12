@@ -2,8 +2,8 @@
 //  ActionShit.swift
 //  SwitchTheShitOutOfTheColor
 //
-//  Created by NP2 on 5/4/19.
-//  Copyright © 2019 shndrs. All rights reserved.
+//  Created by VISHAL (V.C) on 5/4/19.
+//  Copyright © 2019. All rights reserved.
 //
 
 import UIKit
